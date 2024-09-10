@@ -13,14 +13,6 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Yedek\\SurveyApp\\SurveyApp\\wwwroot\\images\\1720095482163.jpeg",
-      "PackagePath": "staticwebassets\\images\\1720095482163.jpeg"
-    },
-    {
-      "Id": "D:\\Yedek\\SurveyApp\\SurveyApp\\wwwroot\\images\\1720095482533.jpeg",
-      "PackagePath": "staticwebassets\\images\\1720095482533.jpeg"
-    },
-    {
       "Id": "D:\\Yedek\\SurveyApp\\SurveyApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
@@ -251,6 +243,18 @@
     {
       "Id": "D:\\Yedek\\SurveyApp\\SurveyApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Yedek\\SurveyApp\\SurveyApp\\wwwroot\\uploads\\1720095482163.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\1720095482163.jpeg"
+    },
+    {
+      "Id": "D:\\Yedek\\SurveyApp\\SurveyApp\\wwwroot\\uploads\\1720095482533.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\1720095482533.jpeg"
+    },
+    {
+      "Id": "D:\\Yedek\\SurveyApp\\SurveyApp\\wwwroot\\uploads\\1720095484317.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\1720095484317.jpeg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.SurveyApp.Microsoft.AspNetCore.StaticWebAssets.props",

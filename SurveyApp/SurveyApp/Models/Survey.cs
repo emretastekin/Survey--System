@@ -1,11 +1,28 @@
-﻿namespace SurveyApp.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace SurveyApp.Models
 {
     public class Survey
     {
         public int Id { get; set; }
-        public string FirstName { get; set; } = "";
-        public string LastName { get; set; } = "";
+
+        [Required]
+        public string Name { get; set; } = "";
+
+        [Required]    
+        public string Surname { get; set; } = "";
+
+        [EmailAddress]
         public string Email { get; set; } = "";
-        public string ImagePath { get; set; } = "";
+
+        [Phone]
+        [StringLength(15)]
+        public string PhoneNumber { get; set; } = "";
+
+        [StringLength(200)]
+        public string? Answer1 { get; set; }
+
+        public string? ImagePath { get; set; }
+    
     }
 }
