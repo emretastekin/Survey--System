@@ -9,8 +9,12 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\Yedek\\SurveyApp\\SurveyApp\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "D:\\Yedek\\SurveyApp\\SurveyApp\\wwwroot\\images\\detay.icon.jpeg",
+      "PackagePath": "staticwebassets\\images\\detay.icon.jpeg"
+    },
+    {
+      "Id": "D:\\Yedek\\SurveyApp\\SurveyApp\\wwwroot\\images\\detay.jpeg",
+      "PackagePath": "staticwebassets\\images\\detay.jpeg"
     },
     {
       "Id": "D:\\Yedek\\SurveyApp\\SurveyApp\\wwwroot\\js\\site.js",
@@ -255,6 +259,10 @@
     {
       "Id": "D:\\Yedek\\SurveyApp\\SurveyApp\\wwwroot\\uploads\\1720095484317.jpeg",
       "PackagePath": "staticwebassets\\uploads\\1720095484317.jpeg"
+    },
+    {
+      "Id": "D:\\Yedek\\SurveyApp\\SurveyApp\\wwwroot\\uploads\\Ekran Görüntüsü (1229).png",
+      "PackagePath": "staticwebassets\\uploads\\Ekran Görüntüsü (1229).png"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.SurveyApp.Microsoft.AspNetCore.StaticWebAssets.props",

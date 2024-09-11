@@ -31,7 +31,7 @@ namespace SurveyApp.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(string name, string surname, string email, string phoneNumber, string answer1, IFormFile? imageFile)
+        public async Task<IActionResult> Create(string name, string surname, string email, string phoneNumber, string answer1, IFormFile? imageFile, int rating, bool yesNoAnswer)
         {
             if (ModelState.IsValid)
             {
@@ -41,7 +41,9 @@ namespace SurveyApp.Controllers
                     Surname = surname,
                     Email = email,
                     PhoneNumber = phoneNumber,
-                    Answer1 = answer1
+                    Answer1 = answer1,
+                    Rating= rating,
+                    YesNoAnswer= yesNoAnswer
                 };
 
                 // Dosya yükleme işlemi
@@ -82,14 +84,19 @@ namespace SurveyApp.Controllers
 
             var mailMessage = new MailMessage
             {
-                From = new MailAddress("aaa@gmail.cpm"),
+                From = new MailAddress("emretastekin2369@gmail.com",$"{survey.Email}"),
                 Subject = "Yeni Anket Yanıtı",
                 Body = $"İsim: {survey.Name}\nSoyisim: {survey.Surname}\nTelefon: {survey.PhoneNumber}\nEmail: {survey.Email}\n" +
-                       $"Cevap 1: {survey.Answer1}",
+                       $"Soru 1: Bu bir sorudur.: {survey.Answer1}\n" +
+                       $"Puanlama: {survey.Rating}\n" +
+                       $"Evet/Hayır Cevabı: {(survey.YesNoAnswer == true ? "Evet" : "Hayır")}",
                 IsBodyHtml = false,
             };
 
             mailMessage.To.Add("emretastekin2369@gmail.com");
+
+            mailMessage.ReplyToList.Add(new MailAddress(survey.Email));
+
 
             if (!string.IsNullOrEmpty(survey.ImagePath))
             {

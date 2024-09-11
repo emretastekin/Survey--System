@@ -23,6 +23,10 @@ namespace SurveyApp.Models
         public string? Answer1 { get; set; }
 
         public string? ImagePath { get; set; }
+
+        public int? Rating { get; set; }
+
+        public bool? YesNoAnswer { get; set; }
     
     }
 }

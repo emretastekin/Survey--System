@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "koPRZt5im4UkQZrrb+TnsarmYbP3uHN+IihepzdSk88=",
+  "Hash": "DII7nh7RW4eibjiK3Uh2nx6jmOfMriIyEvKL8P4I0LE=",
   "Source": "SurveyApp",
   "BasePath": "_content/SurveyApp",
   "Mode": "Default",
@@ -74,12 +74,12 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\Yedek\\SurveyApp\\SurveyApp\\wwwroot\\favicon.ico",
+      "Identity": "D:\\Yedek\\SurveyApp\\SurveyApp\\wwwroot\\images\\detay.icon.jpeg",
       "SourceId": "SurveyApp",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Yedek\\SurveyApp\\SurveyApp\\wwwroot\\",
       "BasePath": "_content/SurveyApp",
-      "RelativePath": "favicon.ico",
+      "RelativePath": "images/detay.icon.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -90,7 +90,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
+      "OriginalItemSpec": "wwwroot\\images\\detay.icon.jpeg"
+    },
+    {
+      "Identity": "D:\\Yedek\\SurveyApp\\SurveyApp\\wwwroot\\images\\detay.jpeg",
+      "SourceId": "SurveyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Yedek\\SurveyApp\\SurveyApp\\wwwroot\\",
+      "BasePath": "_content/SurveyApp",
+      "RelativePath": "images/detay.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\detay.jpeg"
     },
     {
       "Identity": "D:\\Yedek\\SurveyApp\\SurveyApp\\wwwroot\\js\\site.js",
@@ -1250,6 +1269,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\1720095484317.jpeg"
+    },
+    {
+      "Identity": "D:\\Yedek\\SurveyApp\\SurveyApp\\wwwroot\\uploads\\Ekran Görüntüsü (1229).png",
+      "SourceId": "SurveyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Yedek\\SurveyApp\\SurveyApp\\wwwroot\\",
+      "BasePath": "_content/SurveyApp",
+      "RelativePath": "uploads/Ekran Görüntüsü (1229).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Ekran Görüntüsü (1229).png"
     }
   ]
 }

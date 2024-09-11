@@ -1,42 +1,104 @@
 ﻿@model SurveyApp.Models.Survey
 
 <form asp-action="Create" method="post" enctype="multipart/form-data">
-    <div class="form-group">
-        <label asp-for="Name"></label>
-        <input asp-for="Name" class="form-control" />
+
+    <!-- Mevcut Bir Resmi Görüntüleme -->
+    <!-- Mevcut Bir Resmi Görüntüleme -->
+    <div class="form-group" style="display: flex; justify-content: center; align-items: center; height: 250px;">
+        <img src="~/images/detay.jpeg" alt="Yüklü Resim" style="width: 300px; height: auto;" />
+    </div>
+    
+    <style>
+        .bold-label {
+            font-weight: bold;
+        }
+    
+        .large-text {
+            font-size: 1.2rem; /* Yazı boyutunu artırın, gerektiği gibi ayarlayın */
+        }
+    
+        .large-input {
+            font-size: 1.2rem; /* Giriş kutusu için yazı boyutunu artırın */
+            padding: 10px; /* Giriş kutusu için dolgu (padding) */
+        }
+
+        .bold-button {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        .radio-option {
+            margin: 0 10px;
+            width: 20px; /* Adjust the size of the radio button */
+            height: 20px;
+        }
+
+        .radio-label {
+            font-size: 20px; /* Adjust the font size for the labels */
+            margin-right: 20px; /* Adjust the spacing between options */
+        }
+    </style>
+
+    <div class="form-group" style="margin-top: 40px;">
+        <label asp-for="Name" class="bold-label large-text"></label>
+        <input asp-for="Name" class="form-control large-input" />
         <span asp-validation-for="Name" class="text-danger"></span>
     </div>
 
-    <div class="form-group">
-        <label asp-for="Surname"></label>
-        <input asp-for="Surname" class="form-control" />
+    <div class="form-group" style="margin-top: 30px;">
+        <label asp-for="Surname" class="bold-label large-text"></label>
+        <input asp-for="Surname" class="form-control large-input" />
         <span asp-validation-for="Surname" class="text-danger"></span>
     </div>
 
-    <div class="form-group">
-        <label asp-for="Email"></label>
-        <input asp-for="Email" type="email" class="form-control" />
+    <div class="form-group" style="margin-top: 30px;">
+        <label asp-for="Email" class="bold-label large-text"></label>
+        <input asp-for="Email" type="email" class="form-control large-input" />
         <span asp-validation-for="Email" class="text-danger"></span>
     </div>
 
-    <div class="form-group">
-        <label asp-for="PhoneNumber"></label>
-        <input asp-for="PhoneNumber" class="form-control" />
+    <div class="form-group" style="margin-top: 30px;">
+        <label asp-for="PhoneNumber" class="bold-label large-text"></label>
+        <input asp-for="PhoneNumber" class="form-control large-input" />
         <span asp-validation-for="PhoneNumber" class="text-danger"></span>
     </div>
 
     <!-- Anket soruları ve cevapları -->
-    <div class="form-group">
-        <label>Soru 1: Bu bir sorudur.</label>
-        <input asp-for="Answer1" class="form-control" />
+    <div class="form-group" style="margin-top: 30px;">
+        <label class="bold-label large-text">Soru 1: Bu bir sorudur. </label>
+        <input asp-for="Answer1" class="form-control large-input" />
         <span asp-validation-for="Answer1" class="text-danger"></span>
     </div>
 
     <!-- Dosya Yükleme -->
-    <div class="form-group">
-        <label>Resim Ekleyin:</label>
-        <input type="file" name="imageFile" class="form-control" />
+    <div class="form-group" style="margin-top: 30px;">
+        <label class="bold-label large-text">Resim Ekleyin:</label>
+        <input type="file" name="imageFile" class="form-control large-input" accept="image/*" />
     </div>
 
-    <button type="submit" class="btn btn-primary">Gönder</button>
+    <!-- Yeni Puanlama Alanı -->
+    <div class="form-group" style="margin-top: 30px;">
+        <label class="bold-label large-text" for="rating">Puanlama (1-5):</label>
+        <select id="rating" name="rating" class="form-control large-input">
+            <option value="">Seçiniz</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+    </div>
+
+    <!-- Evet/Hayır Sorusu -->
+    <div class="form-group" style="margin-top: 30px;">
+        <label class="bold-label large-text" for="yesNoAnswer">Bu soruya cevabınız nedir?</label><br />
+        <input type="radio" id="yes" name="yesNoAnswer" value="true" class="radio-option" />
+        <label for="yes" class="radio-label">Evet</label><br />
+        <input type="radio" id="no" name="yesNoAnswer" value="false" class="radio-option" />
+        <label for="no" class="radio-label">Hayır</label>
+    </div>
+
+
+
+    <button type="submit" class="btn btn-primary bold-button" style="margin-top: 30px;">Gönder</button>
 </form>
