@@ -9,7 +9,7 @@ namespace SurveyApp.Models
         [Required]
         public string Name { get; set; } = "";
 
-        [Required]    
+        [Required]
         public string Surname { get; set; } = "";
 
         [EmailAddress]
@@ -27,6 +27,6 @@ namespace SurveyApp.Models
         public int? Rating { get; set; }
 
         public bool? YesNoAnswer { get; set; }
-    
+
     }
 }
