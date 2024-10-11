@@ -3,8 +3,10 @@
   "WorkspaceRootPath": "D:\\Yedek\\SurveyApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FEA1F52C-A66F-49A5-B3EF-B6036E3F73E8}|SurveyApp\\SurveyApp.csproj|d:\\yedek\\surveyapp\\surveyapp\\views\\survey\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FEA1F52C-A66F-49A5-B3EF-B6036E3F73E8}|SurveyApp\\SurveyApp.csproj|solutionrelative:surveyapp\\views\\survey\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u0130ndirilenler\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Yedek\\DetaySurveyWebSite\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEA1F52C-A66F-49A5-B3EF-B6036E3F73E8}|SurveyApp\\SurveyApp.csproj|d:\\yedek\\surveyapp\\surveyapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -15,39 +17,20 @@
       "RelativeMoniker": "D:0:0:{FEA1F52C-A66F-49A5-B3EF-B6036E3F73E8}|SurveyApp\\SurveyApp.csproj|solutionrelative:surveyapp\\views\\survey\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEA1F52C-A66F-49A5-B3EF-B6036E3F73E8}|SurveyApp\\SurveyApp.csproj|d:\\yedek\\surveyapp\\surveyapp\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FEA1F52C-A66F-49A5-B3EF-B6036E3F73E8}|SurveyApp\\SurveyApp.csproj|solutionrelative:surveyapp\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEA1F52C-A66F-49A5-B3EF-B6036E3F73E8}|SurveyApp\\SurveyApp.csproj|d:\\yedek\\surveyapp\\surveyapp\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FEA1F52C-A66F-49A5-B3EF-B6036E3F73E8}|SurveyApp\\SurveyApp.csproj|solutionrelative:surveyapp\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEA1F52C-A66F-49A5-B3EF-B6036E3F73E8}|SurveyApp\\SurveyApp.csproj|d:\\yedek\\surveyapp\\surveyapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEA1F52C-A66F-49A5-B3EF-B6036E3F73E8}|SurveyApp\\SurveyApp.csproj|solutionrelative:surveyapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEA1F52C-A66F-49A5-B3EF-B6036E3F73E8}|SurveyApp\\SurveyApp.csproj|d:\\yedek\\surveyapp\\surveyapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{FEA1F52C-A66F-49A5-B3EF-B6036E3F73E8}|SurveyApp\\SurveyApp.csproj|solutionrelative:surveyapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Yedek\\detaysurveyWebSite\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEA1F52C-A66F-49A5-B3EF-B6036E3F73E8}|SurveyApp\\SurveyApp.csproj|d:\\yedek\\surveyapp\\surveyapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FEA1F52C-A66F-49A5-B3EF-B6036E3F73E8}|SurveyApp\\SurveyApp.csproj|solutionrelative:surveyapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEA1F52C-A66F-49A5-B3EF-B6036E3F73E8}|SurveyApp\\SurveyApp.csproj|d:\\yedek\\surveyapp\\surveyapp\\migrations\\20240920183423_test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEA1F52C-A66F-49A5-B3EF-B6036E3F73E8}|SurveyApp\\SurveyApp.csproj|solutionrelative:surveyapp\\migrations\\20240920183423_test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FEA1F52C-A66F-49A5-B3EF-B6036E3F73E8}|SurveyApp\\SurveyApp.csproj|d:\\yedek\\surveyapp\\surveyapp\\views\\survey\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FEA1F52C-A66F-49A5-B3EF-B6036E3F73E8}|SurveyApp\\SurveyApp.csproj|solutionrelative:surveyapp\\views\\survey\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEA1F52C-A66F-49A5-B3EF-B6036E3F73E8}|SurveyApp\\SurveyApp.csproj|d:\\yedek\\surveyapp\\surveyapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEA1F52C-A66F-49A5-B3EF-B6036E3F73E8}|SurveyApp\\SurveyApp.csproj|solutionrelative:surveyapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEA1F52C-A66F-49A5-B3EF-B6036E3F73E8}|SurveyApp\\SurveyApp.csproj|d:\\yedek\\surveyapp\\surveyapp\\controllers\\surveycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEA1F52C-A66F-49A5-B3EF-B6036E3F73E8}|SurveyApp\\SurveyApp.csproj|solutionrelative:surveyapp\\controllers\\surveycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FEA1F52C-A66F-49A5-B3EF-B6036E3F73E8}|SurveyApp\\SurveyApp.csproj|d:\\yedek\\surveyapp\\surveyapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FEA1F52C-A66F-49A5-B3EF-B6036E3F73E8}|SurveyApp\\SurveyApp.csproj|solutionrelative:surveyapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEA1F52C-A66F-49A5-B3EF-B6036E3F73E8}|SurveyApp\\SurveyApp.csproj|d:\\yedek\\surveyapp\\surveyapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FEA1F52C-A66F-49A5-B3EF-B6036E3F73E8}|SurveyApp\\SurveyApp.csproj|solutionrelative:surveyapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEA1F52C-A66F-49A5-B3EF-B6036E3F73E8}|SurveyApp\\SurveyApp.csproj|d:\\yedek\\surveyapp\\surveyapp\\migrations\\applicationcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,14 +70,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FEA1F52C-A66F-49A5-B3EF-B6036E3F73E8}|SurveyApp\\SurveyApp.csproj|d:\\yedek\\surveyapp\\surveyapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEA1F52C-A66F-49A5-B3EF-B6036E3F73E8}|SurveyApp\\SurveyApp.csproj|solutionrelative:surveyapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEA1F52C-A66F-49A5-B3EF-B6036E3F73E8}|SurveyApp\\SurveyApp.csproj|d:\\yedek\\surveyapp\\surveyapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FEA1F52C-A66F-49A5-B3EF-B6036E3F73E8}|SurveyApp\\SurveyApp.csproj|solutionrelative:surveyapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEA1F52C-A66F-49A5-B3EF-B6036E3F73E8}|SurveyApp\\SurveyApp.csproj|d:\\yedek\\surveyapp\\surveyapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FEA1F52C-A66F-49A5-B3EF-B6036E3F73E8}|SurveyApp\\SurveyApp.csproj|solutionrelative:surveyapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -104,7 +79,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -112,183 +87,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "site.css",
-              "DocumentMoniker": "D:\\Yedek\\SurveyApp\\SurveyApp\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "SurveyApp\\wwwroot\\css\\site.css",
-              "ToolTip": "D:\\Yedek\\SurveyApp\\SurveyApp\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "SurveyApp\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAkwA0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-09-21T11:21:41.309Z",
+              "DocumentIndex": 0,
+              "Title": "web.config",
+              "DocumentMoniker": "D:\\\u0130ndirilenler\\web.config",
+              "RelativeDocumentMoniker": "..\\..\\\u0130ndirilenler\\web.config",
+              "ToolTip": "D:\\\u0130ndirilenler\\web.config",
+              "RelativeToolTip": "..\\..\\\u0130ndirilenler\\web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-10T19:21:15.157Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Yedek\\SurveyApp\\SurveyApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "SurveyApp\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Yedek\\SurveyApp\\SurveyApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "SurveyApp\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAADYAAAAAAAAAAAAAACkAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-09T15:20:17.965Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Yedek\\SurveyApp\\SurveyApp\\Views\\Survey\\Create.cshtml",
-              "RelativeDocumentMoniker": "SurveyApp\\Views\\Survey\\Create.cshtml",
-              "ToolTip": "D:\\Yedek\\SurveyApp\\SurveyApp\\Views\\Survey\\Create.cshtml",
-              "RelativeToolTip": "SurveyApp\\Views\\Survey\\Create.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-09T15:03:44.807Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Success.cshtml",
-              "DocumentMoniker": "D:\\Yedek\\SurveyApp\\SurveyApp\\Views\\Survey\\Success.cshtml",
-              "RelativeDocumentMoniker": "SurveyApp\\Views\\Survey\\Success.cshtml",
-              "ToolTip": "D:\\Yedek\\SurveyApp\\SurveyApp\\Views\\Survey\\Success.cshtml",
-              "RelativeToolTip": "SurveyApp\\Views\\Survey\\Success.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-09T15:04:59.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "D:\\Yedek\\SurveyApp\\SurveyApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "SurveyApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "D:\\Yedek\\SurveyApp\\SurveyApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "SurveyApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-11T13:28:53.784Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "web.config",
               "DocumentMoniker": "D:\\Yedek\\DetaySurveyWebSite\\web.config",
               "RelativeDocumentMoniker": "..\\DetaySurveyWebSite\\web.config",
               "ToolTip": "D:\\Yedek\\DetaySurveyWebSite\\web.config",
               "RelativeToolTip": "..\\DetaySurveyWebSite\\web.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA4AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-09-20T13:33:29.26Z",
+              "WhenOpened": "2024-10-10T18:43:47.497Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SurveyController.cs",
-              "DocumentMoniker": "D:\\Yedek\\SurveyApp\\SurveyApp\\Controllers\\SurveyController.cs",
-              "RelativeDocumentMoniker": "SurveyApp\\Controllers\\SurveyController.cs",
-              "ToolTip": "D:\\Yedek\\SurveyApp\\SurveyApp\\Controllers\\SurveyController.cs",
-              "RelativeToolTip": "SurveyApp\\Controllers\\SurveyController.cs",
-              "ViewState": "AQIAAFsAAAAAAAAAAAAIwHQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T14:58:47.921Z"
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Yedek\\SurveyApp\\SurveyApp\\Views\\Survey\\Create.cshtml",
+              "RelativeDocumentMoniker": "SurveyApp\\Views\\Survey\\Create.cshtml",
+              "ToolTip": "D:\\Yedek\\SurveyApp\\SurveyApp\\Views\\Survey\\Create.cshtml",
+              "RelativeToolTip": "SurveyApp\\Views\\Survey\\Create.cshtml",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAUwFYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T21:19:18.913Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "D:\\Yedek\\SurveyApp\\SurveyApp\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "SurveyApp\\Models\\ErrorViewModel.cs",
-              "ToolTip": "D:\\Yedek\\SurveyApp\\SurveyApp\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "SurveyApp\\Models\\ErrorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T15:22:52.583Z",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Yedek\\SurveyApp\\SurveyApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SurveyApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Yedek\\SurveyApp\\SurveyApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SurveyApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAJgAAAAAAAAAAAAAAKcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T20:39:20.413Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "D:\\Yedek\\SurveyApp\\SurveyApp\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "SurveyApp\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "D:\\Yedek\\SurveyApp\\SurveyApp\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "SurveyApp\\Views\\Shared\\Error.cshtml",
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "D:\\Yedek\\SurveyApp\\SurveyApp\\Views\\Survey\\Success.cshtml",
+              "RelativeDocumentMoniker": "SurveyApp\\Views\\Survey\\Success.cshtml",
+              "ToolTip": "D:\\Yedek\\SurveyApp\\SurveyApp\\Views\\Survey\\Success.cshtml",
+              "RelativeToolTip": "SurveyApp\\Views\\Survey\\Success.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-09T15:22:58.746Z",
+              "WhenOpened": "2024-10-10T19:09:42.574Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20240920183423_Test1.cs",
-              "DocumentMoniker": "D:\\Yedek\\SurveyApp\\SurveyApp\\Migrations\\20240920183423_Test1.cs",
-              "RelativeDocumentMoniker": "SurveyApp\\Migrations\\20240920183423_Test1.cs",
-              "ToolTip": "D:\\Yedek\\SurveyApp\\SurveyApp\\Migrations\\20240920183423_Test1.cs",
-              "RelativeToolTip": "SurveyApp\\Migrations\\20240920183423_Test1.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T18:34:27.368Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Yedek\\SurveyApp\\SurveyApp\\appsettings.json",
-              "RelativeDocumentMoniker": "SurveyApp\\appsettings.json",
-              "ToolTip": "D:\\Yedek\\SurveyApp\\SurveyApp\\appsettings.json",
-              "RelativeToolTip": "SurveyApp\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAB7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-09T14:44:57.895Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Yedek\\SurveyApp\\SurveyApp\\Program.cs",
               "RelativeDocumentMoniker": "SurveyApp\\Program.cs",
               "ToolTip": "D:\\Yedek\\SurveyApp\\SurveyApp\\Program.cs",
               "RelativeToolTip": "SurveyApp\\Program.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAQwBcAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T13:59:39.103Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Survey.cs",
-              "DocumentMoniker": "D:\\Yedek\\SurveyApp\\SurveyApp\\Models\\Survey.cs",
-              "RelativeDocumentMoniker": "SurveyApp\\Models\\Survey.cs",
-              "ToolTip": "D:\\Yedek\\SurveyApp\\SurveyApp\\Models\\Survey.cs",
-              "RelativeToolTip": "SurveyApp\\Models\\Survey.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T18:33:39.883Z"
+              "WhenOpened": "2024-09-09T13:59:39.103Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "ApplicationContextModelSnapshot.cs",
-              "DocumentMoniker": "D:\\Yedek\\SurveyApp\\SurveyApp\\Migrations\\ApplicationContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "SurveyApp\\Migrations\\ApplicationContextModelSnapshot.cs",
-              "ToolTip": "D:\\Yedek\\SurveyApp\\SurveyApp\\Migrations\\ApplicationContextModelSnapshot.cs",
-              "RelativeToolTip": "SurveyApp\\Migrations\\ApplicationContextModelSnapshot.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T18:39:12.23Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\Yedek\\SurveyApp\\SurveyApp\\appsettings.Development.json",
               "RelativeDocumentMoniker": "SurveyApp\\appsettings.Development.json",
@@ -300,90 +177,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "SurveyApp",
-              "DocumentMoniker": "D:\\Yedek\\SurveyApp\\SurveyApp\\SurveyApp.csproj",
-              "RelativeDocumentMoniker": "SurveyApp\\SurveyApp.csproj",
-              "ToolTip": "D:\\Yedek\\SurveyApp\\SurveyApp\\SurveyApp.csproj",
-              "RelativeToolTip": "SurveyApp\\SurveyApp.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-20T13:39:48.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ApplicationContext.cs",
-              "DocumentMoniker": "D:\\Yedek\\SurveyApp\\SurveyApp\\Data\\ApplicationContext.cs",
-              "RelativeDocumentMoniker": "SurveyApp\\Data\\ApplicationContext.cs",
-              "ToolTip": "D:\\Yedek\\SurveyApp\\SurveyApp\\Data\\ApplicationContext.cs",
-              "RelativeToolTip": "SurveyApp\\Data\\ApplicationContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T14:26:40.865Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\Yedek\\SurveyApp\\SurveyApp\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "SurveyApp\\Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\Yedek\\SurveyApp\\SurveyApp\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "SurveyApp\\Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Yedek\\SurveyApp\\SurveyApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SurveyApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Yedek\\SurveyApp\\SurveyApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SurveyApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-09T15:23:15.021Z"
+              "WhenOpened": "2024-09-09T15:18:24.878Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\Yedek\\SurveyApp\\SurveyApp\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "SurveyApp\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\Yedek\\SurveyApp\\SurveyApp\\Properties\\launchSettings.json",
-              "RelativeToolTip": "SurveyApp\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-20T11:46:03.464Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "web.config",
-              "DocumentMoniker": "C:\\Users\\emret\\AppData\\Local\\Temp\\020a3b0d-13c5-4b28-b8ae-7673e93b2455_detaysurveyWebSite.zip.455\\web.config",
-              "ToolTip": "C:\\Users\\emret\\AppData\\Local\\Temp\\020a3b0d-13c5-4b28-b8ae-7673e93b2455_detaysurveyWebSite.zip.455\\web.config[Salt Okunur]",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-09-20T11:37:19.42Z",
-              "EditorCaption": "[Salt Okunur]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "D:\\Yedek\\SurveyApp\\SurveyApp\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "SurveyApp\\Views\\_ViewStart.cshtml",
-              "ToolTip": "D:\\Yedek\\SurveyApp\\SurveyApp\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "SurveyApp\\Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-09T15:05:53.917Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Yedek\\SurveyApp\\SurveyApp\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "SurveyApp\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Yedek\\SurveyApp\\SurveyApp\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "SurveyApp\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T15:22:45.458Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 6,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "D:\\Yedek\\SurveyApp\\SurveyApp\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "SurveyApp\\Views\\Home\\Privacy.cshtml",
@@ -395,15 +201,110 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Yedek\\SurveyApp\\SurveyApp\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "SurveyApp\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Yedek\\SurveyApp\\SurveyApp\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "SurveyApp\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "DocumentIndex": 8,
+              "Title": "ApplicationContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\Yedek\\SurveyApp\\SurveyApp\\Migrations\\ApplicationContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "SurveyApp\\Migrations\\ApplicationContextModelSnapshot.cs",
+              "ToolTip": "D:\\Yedek\\SurveyApp\\SurveyApp\\Migrations\\ApplicationContextModelSnapshot.cs",
+              "RelativeToolTip": "SurveyApp\\Migrations\\ApplicationContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T18:39:12.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Survey.cs",
+              "DocumentMoniker": "D:\\Yedek\\SurveyApp\\SurveyApp\\Models\\Survey.cs",
+              "RelativeDocumentMoniker": "SurveyApp\\Models\\Survey.cs",
+              "ToolTip": "D:\\Yedek\\SurveyApp\\SurveyApp\\Models\\Survey.cs",
+              "RelativeToolTip": "SurveyApp\\Models\\Survey.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T18:33:39.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SurveyApp",
+              "DocumentMoniker": "D:\\Yedek\\SurveyAPP\\SurveyApp\\SurveyApp.csproj",
+              "RelativeDocumentMoniker": "SurveyApp\\SurveyApp.csproj",
+              "ToolTip": "D:\\Yedek\\SurveyAPP\\SurveyApp\\SurveyApp.csproj",
+              "RelativeToolTip": "SurveyApp\\SurveyApp.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-20T13:39:48.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationContext.cs",
+              "DocumentMoniker": "D:\\Yedek\\SurveyApp\\SurveyApp\\Data\\ApplicationContext.cs",
+              "RelativeDocumentMoniker": "SurveyApp\\Data\\ApplicationContext.cs",
+              "ToolTip": "D:\\Yedek\\SurveyApp\\SurveyApp\\Data\\ApplicationContext.cs",
+              "RelativeToolTip": "SurveyApp\\Data\\ApplicationContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T14:26:40.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Yedek\\SurveyApp\\SurveyApp\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "SurveyApp\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Yedek\\SurveyApp\\SurveyApp\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "SurveyApp\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-09T15:18:24.878Z"
+              "WhenOpened": "2024-09-09T15:23:15.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Yedek\\SurveyApp\\SurveyApp\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SurveyApp\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Yedek\\SurveyApp\\SurveyApp\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SurveyApp\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-20T11:46:03.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "web.config",
+              "DocumentMoniker": "C:\\Users\\emret\\AppData\\Local\\Temp\\020a3b0d-13c5-4b28-b8ae-7673e93b2455_detaysurveyWebSite.zip.455\\web.config",
+              "ToolTip": "C:\\Users\\emret\\AppData\\Local\\Temp\\020a3b0d-13c5-4b28-b8ae-7673e93b2455_detaysurveyWebSite.zip.455\\web.config[Salt Okunur]",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-20T11:37:19.42Z",
+              "EditorCaption": "[Salt Okunur]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Yedek\\SurveyApp\\SurveyApp\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "SurveyApp\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Yedek\\SurveyApp\\SurveyApp\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "SurveyApp\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T15:05:53.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Yedek\\SurveyApp\\SurveyApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SurveyApp\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Yedek\\SurveyApp\\SurveyApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SurveyApp\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T15:22:45.458Z"
             }
           ]
         }

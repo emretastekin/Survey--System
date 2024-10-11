@@ -1,113 +1,230 @@
-﻿<!DOCTYPE html>
+﻿<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] Detay Anket</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Detay Stok Sayım Survey App</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="~/images/detay.icon.jpeg" />
 
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/SurveyApp.styles.css" asp-append-version="true" />
+    <!-- Bootstrap ve Özel Stiller -->
+    <link rel="stylesheet" href="assets/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/bootstrap-icons/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
 
     <style>
         .navbar {
-            display: flex;
-            justify-content: space-between; /* Öğeleri kenarlara yayar */
-            align-items: center;
-            position: relative;
-            padding: 10px; /* Padding ekleyerek boşluk artırdık */
+            background-color: black; /* Arka plan rengi */
+            height: 80px; /* Navbar yüksekliğini ayarlayın */
+            display: flex; /* Flex düzeni kullanın */
+            align-items: center; /* Dikey olarak ortalamak için */
+            justify-content: space-between; /* Sağ ve sol alanları ayırmak için */
         }
 
-        .navbar-collapse {
-            display: flex;
-            flex: 1;
-            justify-content: center;
-        }
-
-        /* Sosyal medya simgeleri */
-        .navbar-nav {
-            margin-left: auto; /* Sosyal medya simgelerini sağa ittirir */
-            display: flex;
-            gap: 10px; /* Sosyal medya simgeleri arası boşluk */
-        }
-
-        /* Navbar brand */
         .navbar-brand {
-            font-weight: bold;
-            font-size: 1.75rem; /* Font boyutunu daha küçük yapalım */
-            text-align: left; /* Metni ortalar */
-            flex-grow: 1; /* Boşluk varsa genişlesin */
-            margin-bottom:10px;
+            display: flex; /* Flex düzeni kullanın */
+            align-items: center; /* Logo'yu dikey olarak ortalamak için */
+            padding-left: 300px; /* Logo için iç boşluk ekleyin */
         }
+
+        .navbar-brand img {
+            height: 60px; /* Logo boyutunu ayarlayın */
+            margin: auto; /* Görseli tamamen ortalayın */
+            padding: 0;
+        }
+
 
         .navbar-text {
-            color: blue !important; /* Mavi renk */
-            font-weight: bold; /* Kalın yazı */
-            margin-left: 15px;
+            color: white; /* Yazı rengi beyaz */
+            padding-right: 300px; /* Sağdan iç boşluk ekleyin */
+            font-weight: bold;
+            font-size: 50px;
+            letter-spacing: 3px;
         }
-    </style>
 
+        /* Footer stili */
+        .footer {
+            background-color: black; /* Arka plan rengi */
+            color: white; /* Yazı rengi beyaz */
+            text-align: center; /* Ortala */
+            padding: 15px; /* İç boşluk */
+            position: relative; /* Normal konumlandırma */
+            bottom: 0; /* Alt kısımda sabit durması için */
+            left: 0; /* Sol kenara yapıştır */
+            right: 0; /* Sağ kenara yapıştır */
+            width: 100%; /* Genişliği tam olarak ayarla */
+            z-index: 1000; /* Diğer içeriklerin üstünde görünmesi için */
+            display: flex; /* Flex düzeni */
+            align-items: center; /* Dikey olarak ortala */
+            justify-content: center; /* Yatay olarak ortala */
+        }
+
+        main {
+            padding-bottom: 150px; /* Footer yüksekliğine göre ayarlayın */
+            min-height: calc(100vh - 120px); /* Sayfa yüksekliğini navbar ve footer yükseklikleriyle ayarlayın */
+        }
+
+        .social-media-icons {
+            text-align: center; /* İkonları ortala */
+            padding: 10px 0; /* Üst ve alt boşluklar */
+            position: relative; /* Footer'ın hemen üstünde durması için konum */
+            border-top: 1px solid #ddd; /* Üst tarafa ince bir çizgi ekleyin */
+        }
+
+        .social-media-icons a {
+            text-decoration: none; /* Alt çizgi kaldır */
+            margin: 0 10px; /* İkonlar arasındaki boşluk */
+        }
+
+        .social-media-icons .social-icon {
+            width: 30px; /* Resmin genişliğini ayarlayın */
+            height: 30px; /* Resmin yüksekliğini ayarlayın */
+            transition: transform 0.3s ease; /* Geçiş efekti */
+        }
+
+        .social-media-icons .social-icon:hover {
+            transform: scale(1.2); /* Üzerine gelindiğinde büyüme efekti */
+        }
+
+        .footer span {
+            color: green; /* Yazı rengi beyaz */
+            font-weight: bold; /* Yazıyı kalın yap */
+            margin-top: 0; /* Yazı ile ikon arasında boşluk olmaması için */
+        }
+
+        .contact-icon {
+            width: 30px; /* İkon genişliği */
+            height: 30px; /* İkon yüksekliği */
+            transition: transform 0.3s ease; /* Geçiş efekti */
+        }
+
+        .contact-icon:hover {
+            transform: scale(1.3); /* Üzerine gelindiğinde büyüme efekti */
+        }
+
+        .footer a {
+            text-decoration: none; /* Alt çizgiyi kaldır */
+            border: none; /* Kenarlığı kaldır */
+        }
+
+        .footer .contact-text {
+            margin-left: 5px; /* İkon ile yazı arasında 5px boşluk */
+            font-weight: bold; /* Yazıyı kalın yap */
+        }
+
+        @@media (max-width: 768px) {
+            .navbar {
+                display: flex;
+                flex-direction: column; /* Dikey düzen kullan */
+                width: 100%; /* Ekranın tamamını kapla */
+                height: auto; /* Yüksekliği otomatik yap */
+                padding: 10px; /* İç boşluk ekle */
+                align-items: center; /* İçerikleri ortala */
+            }
+
+            .navbar-brand {
+                padding: 0; /* İç boşluğu kaldır */
+                margin-bottom: 10px; /* Alt boşluk ekle */
+            }
+
+            .navbar-text {
+                font-size: 40px; /* Yazı boyutunu ayarla */
+                letter-spacing: 1px; /* Harf aralığını ayarla */
+                margin: 0; /* Kenar boşluklarını kaldır */
+                padding: 10px; /* İç boşluk ekle */
+                text-align: center; /* Metni ortala */
+            }
+            
+            .navbar-brand img {
+                height: 80px; /* Logo boyutunu küçült */
+            }
+        }
+
+        @@media (min-width: 769px) {
+            .navbar {
+                display: flex;
+                flex-direction: row; /* Yatay düzen kullan */
+                width: 100%; /* Ekranın tamamını kapla */
+                height: 80px; /* Navbar yüksekliğini ayarla */
+                align-items: center; /* İçerikleri dikey olarak ortala */
+                justify-content: space-between; /* İçerikleri ekran boyunca dağıt */
+                padding: 0 20px; /* Sağdan ve soldan boşluk bırak */
+            }
+
+            .navbar-brand img {
+                height: 60px; /* Logo boyutunu ayarla */
+            }
+
+            .navbar-text {
+                font-size: 50px; /* Yazı boyutunu ayarla */
+                letter-spacing: 1px; /* Harf aralığını ayarla */
+            }
+        }
+
+
+
+    </style>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Detay Stok Sayım Survey App</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#socialMedia" aria-controls="socialMedia"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
 
-                <div class="collapse navbar-collapse" id="socialMedia">
-                    <!-- Diğer navigasyon öğeleri buraya gelebilir -->
-                    <!-- Sosyal Medya Simgeleri -->
-                    <div class="navbar-nav">
-                        <span class="navbar-text d-block d-sm-none">Sosyal Medya Hesaplarımız</span>
-                    </div>
-                    <div class="ms-auto d-flex align-items-center">
-                        <a href="https://www.facebook.com" target="_blank" class="nav-link"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.twitter.com" target="_blank" class="nav-link"><i class="fab fa-twitter"></i></a>
-                        <a href="https://www.instagram.com" target="_blank" class="nav-link"><i class="fab fa-instagram"></i></a>
-                        <a href="https://www.linkedin.com/in/detay-envanter-ltd-%C5%9Fti-96915b256/" target="_blank" class="nav-link"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                @*
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
+    <nav class="navbar navbar-expand-lg p-1">
+        <a class="navbar-brand" href="#">
+            <img src="~/images/detay2.png" alt="Logo" />
+        </a>
 
-                *@
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Buraya menü öğeleri veya başka içerik ekleyebilirsiniz -->
+        </div>
+
+        <!-- Navbar'ın en sağına eklenen yazı -->
+        <span class="navbar-text">
+            Anket
+        </span>
+    </nav>
+
+    <main role="main" class="container">
+        @RenderBody() <!-- Sayfa içeriği bu kısma yerleştirilecek -->
+    </main>
+
+    <div class="social-media-icons text-center">
+        <a href="https://facebook.com" target="_blank" class="mx-2">
+            <img src="~/images/facebook.png" alt="Facebook" class="social-icon">
+        </a>
+        <a href="https://instagram.com" target="_blank" class="mx-2">
+            <img src="~/images/instagram.png" alt="Instagram" class="social-icon">
+        </a>
+        <a href="https://twitter.com" target="_blank" class="mx-2">
+            <img src="~/images/twitter.png" alt="Twitter" class="social-icon">
+        </a>
+        <a href="https://www.linkedin.com/in/detay-envanter-ltd-%C5%9Fti-96915b256/" target="_blank" class="mx-2">
+            <img src="~/images/linkedin.png" alt="LinkedIn" class="social-icon">
+        </a>
+        <a href="https://www.youtube.com/" target="_blank" class="mx-2">
+            <img src="~/images/youtube.png" alt="YouTube" class="social-icon">
+        </a>
     </div>
 
-    @*
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - SurveyApp - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
+
+    <footer class="footer d-flex flex-column align-items-center">
+        <a href="http://www.detaystoksayim.com/" title="Bize Ulaşın" style="text-decoration: none; border: none;">
+            <img src="~/images/callbutton.png" alt="Bize Ulaşın" class="contact-icon">
+        </a>
+        <span class="contact-text">Bize Ulaşın</span> <!-- Özel sınıf kullanıldı -->
     </footer>
 
-    *@
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+
+
+
+
+
+
+    <script src="assets/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -1,85 +1,190 @@
 ﻿@model SurveyApp.Models.Survey
 
-<form asp-action="Create" method="post" enctype="multipart/form-data">
+<form asp-action="Create" method="post" enctype="multipart/form-data" class="text-center">
 
-    <!-- Mevcut Bir Resmi Görüntüleme -->
-    <!-- Mevcut Bir Resmi Görüntüleme -->
-    <div class="form-group" style="display: flex; justify-content: center; align-items: center; height: 250px;">
-        <img src="~/images/detay.jpeg" alt="Yüklü Resim" style="width: 300px; height: auto;" />
-    </div>
-    
     <style>
         .bold-label {
             font-weight: bold;
         }
-    
+
         .large-text {
             font-size: 1.2rem; /* Yazı boyutunu artırın, gerektiği gibi ayarlayın */
         }
-    
+
         .large-input {
-            font-size: 1.2rem; /* Giriş kutusu için yazı boyutunu artırın */
+            font-size: 1.2rem; /* Giriş kutusu için yazı boyutu artırma */
             padding: 10px; /* Giriş kutusu için dolgu (padding) */
+            width: 100%; /* Giriş kutusunu genişlet */
+            max-width: 600px; /* Maksimum genişliği ayarla */
+            margin: 0 auto; /* Ortalamak için otomatik kenar boşluğu ekleyin */
+            border-radius: 25px; /* Oval kenarlar için */
+            border: 3px solid #ccc; /* Kenar rengi */
+            transition: border-color 0.3s ease; /* Geçiş efekti */
+        }
+
+        .large-input:focus {
+            border-color: limegreen; /* Seçim yapıldığında kenar rengi */
+            outline: none; /* Kenar seçimi kaldır */
         }
 
         .bold-button {
             font-weight: bold;
             font-size: 1.5rem;
+            margin-left: auto; /* Otomatik soldan boşluk */
+            margin-right: auto; /* Otomatik sağdan boşluk */
+            display: block; /* Blok seviyesine getir */
+            width: 200px; /* Butonun genişliğini ayarlayın (isteğe bağlı) */
+            height: 50px;
+            border-radius: 10px;
+            background-color: limegreen;
+            color: white;
+            transition: background-color 0.3s ease; /* Geçiş efekti ekleyin */
+        }
+
+        .bold-button:hover {
+            background-color: darkgreen; /* İstediğiniz hover rengi */
         }
 
         .radio-option {
             margin: 0 10px;
-            width: 20px; /* Adjust the size of the radio button */
+            width: 20px; /* Radio buton boyutu */
             height: 20px;
         }
 
         .radio-label {
-            font-size: 20px; /* Adjust the font size for the labels */
-            margin-right: 20px; /* Adjust the spacing between options */
+            font-size: 20px; /* Etiket boyutu */
+            margin-right: 20px; /* Seçenekler arasındaki boşluk */
         }
+
+        /* Form alanlarını ortalamak için stil */
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Dikey ortalama */
+            margin-top: 30px;
+        }
+
+        .center-image {
+            display: block; /* Blok seviyesine getir */
+            margin: 0 auto; /* Ortalamak için otomatik kenar boşluğu ekleyin */
+            max-width: 100%; /* Resmin maksimum genişliğini ayarla */
+            height: auto; /* Yüksekliği otomatik ayarla */
+            margin-top: 15px;
+        }
+
+        .green-text {
+            color: green; /* Yeşil renk */
+            margin-top: 0px; /* Üstten boşluk */
+            margin-left: 700px;
+            font-size: 30px;
+            
+        }
+
+        /* Mobil için özel ayarlamalar */
+        @@media (max-width: 768px) {
+         .green-text {
+            font-size: 24px; /* Mobilde daha küçük yazı boyutu */
+            margin-left: 200px; /* Sol kenar boşluğunu kaldır */
+            margin-bottom: 15px; /* Alt kenar boşluğu ekle */
+         }
+        }
+
+        .rating-options {
+            display: flex;
+            justify-content: space-around; /* Seçenekleri yan yana yerleştir */
+            margin-top: 15px;
+            gap: 40px; /* İkonlar arasındaki boşluk (40px) */
+        }
+
+        .rating-input {
+            display: none; /* Giriş alanlarını gizle */
+        }
+
+        .rating-option {
+            text-align: center; /* Metni ortala */
+            cursor: pointer; /* Fareyle üzerine gelindiğinde imleci göster */
+            transition: transform 0.2s; /* Tıklama animasyonu */
+            padding: 10px; /* İkon ve yazı arasındaki alan */
+            border-radius: 10px; /* Oval kenarlar */
+        }
+
+        .rating-option:hover {
+            transform: scale(1.1); /* Tıklandığında boyutunu büyüt */
+        }
+
+        .face-icon {
+            width: 60px; /* Yüz ikonlarının boyutu */
+            height: auto; /* Yüksekliği otomatik ayarla */
+            margin-bottom: 5px; /* İkon ile yazı arasındaki boşluk */
+        }
+
+        /* Renk sınıfları */
+        .rating-input:checked + .rating-option {
+            border: 8px solid limegreen; /* Seçili olan ifadenin kenar rengi */
+            border-radius: 10px; /* Oval kenarlar */
+        }
+
+        #dissatisfied:checked + .rating-option {
+            border: 8px solid red; /* Kırmızı */
+        }
+
+        #neutral:checked + .rating-option {
+            border: 8px solid yellow; /* Sarı */
+        }
+
+        #satisfied:checked + .rating-option {
+            border: 8px solid limegreen; /* Yeşil */
+        }
+
+
 
 
     </style>
 
-    <div class="form-group" style="margin-top: 40px;">
+
+    <img src="~/images/survey-icon.png" alt="Anket İkonu" class="center-image" />
+
+    <h2 class="green-text">Anket</h2>
+
+    <div class="form-group">
         <label asp-for="Name" class="bold-label large-text"></label>
         <input asp-for="Name" class="form-control large-input" />
         <span asp-validation-for="Name" class="text-danger"></span>
     </div>
 
-    <div class="form-group" style="margin-top: 30px;">
+    <div class="form-group">
         <label asp-for="Surname" class="bold-label large-text"></label>
         <input asp-for="Surname" class="form-control large-input" />
         <span asp-validation-for="Surname" class="text-danger"></span>
     </div>
 
-    <div class="form-group" style="margin-top: 30px;">
+    <div class="form-group">
         <label asp-for="Email" class="bold-label large-text"></label>
         <input asp-for="Email" type="email" class="form-control large-input" />
         <span asp-validation-for="Email" class="text-danger"></span>
     </div>
 
-    <div class="form-group" style="margin-top: 30px;">
+    <div class="form-group">
         <label asp-for="PhoneNumber" class="bold-label large-text"></label>
         <input asp-for="PhoneNumber" class="form-control large-input" />
         <span asp-validation-for="PhoneNumber" class="text-danger"></span>
     </div>
 
     <!-- Anket soruları ve cevapları -->
-    <div class="form-group" style="margin-top: 30px;">
+    <div class="form-group">
         <label class="bold-label large-text">Soru 1: Bu bir sorudur. </label>
         <input asp-for="Answer1" class="form-control large-input" />
         <span asp-validation-for="Answer1" class="text-danger"></span>
     </div>
 
     <!-- Dosya Yükleme -->
-    <div class="form-group" style="margin-top: 30px;">
+    <div class="form-group">
         <label class="bold-label large-text">Resim Ekleyin:</label>
         <input type="file" name="imageFile" class="form-control large-input" accept="image/*" />
     </div>
 
     <!-- Yeni Puanlama Alanı -->
-    <div class="form-group" style="margin-top: 30px;">
+    <div class="form-group">
         <label class="bold-label large-text" for="rating">Puanlama (1-5):</label>
         <select id="rating" name="rating" class="form-control large-input">
             <option value="">Seçiniz</option>
@@ -92,13 +197,42 @@
     </div>
 
     <!-- Evet/Hayır Sorusu -->
-    <div class="form-group" style="margin-top: 30px;">
+    <!-- Evet/Hayır Sorusu -->
+    <div class="form-group">
         <label class="bold-label large-text" for="yesNoAnswer">Bu soruya cevabınız nedir?</label><br />
-        <input type="radio" id="yes" name="yesNoAnswer" value="true" class="radio-option" />
-        <label for="yes" class="radio-label">Evet</label><br />
-        <input type="radio" id="no" name="yesNoAnswer" value="false" class="radio-option" />
-        <label for="no" class="radio-label">Hayır</label>
+        <div style="display: flex; align-items: center;">
+            <input type="radio" id="yes" name="yesNoAnswer" value="true" class="radio-option" />
+            <label for="yes" class="radio-label" style="margin-right: 20px;">Evet</label>
+
+            <input type="radio" id="no" name="yesNoAnswer" value="false" class="radio-option" />
+            <label for="no" class="radio-label">Hayır</label>
+        </div>
     </div>
+
+    <div class="form-group">
+        <label class="bold-label large-text">Bu üründen ne kadar memnun kaldınız?</label>
+        <div class="rating-options">
+            <input type="radio" id="dissatisfied" name="satisfactionRating" value="dissatisfied" class="rating-input" />
+            <label for="dissatisfied" class="rating-option">
+                <img src="~/images/sadface.png" alt="Aşık Surat" class="face-icon" />
+                <p>Memnun Kalmadım</p>
+            </label>
+
+            <input type="radio" id="neutral" name="satisfactionRating" value="neutral" class="rating-input" />
+            <label for="neutral" class="rating-option">
+                <img src="~/images/neutralface.png" alt="Kısmen Memnun" class="face-icon" />
+                <p>Kısmen Memnun Kaldım</p>
+            </label>
+
+            <input type="radio" id="satisfied" name="satisfactionRating" value="satisfied" class="rating-input" />
+            <label for="satisfied" class="rating-option">
+                <img src="~/images/positiveface.png" alt="Memnun" class="face-icon" />
+                <p>Memnun Kaldım</p>
+            </label>
+        </div>
+        <input type="hidden" id="ratingInput" name="satisfactionRating" />
+    </div>
+
 
 
 

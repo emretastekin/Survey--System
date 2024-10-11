@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Yedek\\SurveyApp\\SurveyApp\\SurveyApp.csproj": {}
+    "D:\\Yedek\\SurveyAPP\\SurveyApp\\SurveyApp.csproj": {}
   },
   "projects": {
-    "D:\\Yedek\\SurveyApp\\SurveyApp\\SurveyApp.csproj": {
+    "D:\\Yedek\\SurveyAPP\\SurveyApp\\SurveyApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Yedek\\SurveyApp\\SurveyApp\\SurveyApp.csproj",
+        "projectUniqueName": "D:\\Yedek\\SurveyAPP\\SurveyApp\\SurveyApp.csproj",
         "projectName": "SurveyApp",
-        "projectPath": "D:\\Yedek\\SurveyApp\\SurveyApp\\SurveyApp.csproj",
+        "projectPath": "D:\\Yedek\\SurveyAPP\\SurveyApp\\SurveyApp.csproj",
         "packagesPath": "C:\\Users\\emret\\.nuget\\packages\\",
-        "outputPath": "D:\\Yedek\\SurveyApp\\SurveyApp\\obj\\",
+        "outputPath": "D:\\Yedek\\SurveyAPP\\SurveyApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\VS SDK\\NuGetPackages"
